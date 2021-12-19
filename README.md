@@ -20,3 +20,6 @@ User appuser
  - для подключения использует команду ssh -i ~/.ssh/appuser appuser@'внутренний ip someinternalhost'
  - для подключения по алиасу someinternalhost прописываем его в файл hosts ''внутренний-ip-адресэ' someinternalhost'
 и затем в файле ~/.ssh/config указываем 'Host someinternalhost'
+
+bastion_IP = 51.250.9.204
+someinternalhost_IP = 10.128.0.4
