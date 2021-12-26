@@ -1,0 +1,5 @@
+{
+    "key_file": "/hime/username/key.json",
+    "folder_id": "id_folder",
+    "source_image": "ubuntu-1604-lts"
+  }
