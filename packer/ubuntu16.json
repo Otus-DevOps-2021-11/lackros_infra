@@ -2,12 +2,12 @@
     "builders": [
         {
             "type": "yandex",
-            "service_account_key_file": "/home/lackros/OTUS/key.json",
-            "folder_id": "b1gvm2r1i07mm6gm9r1c",
+            "service_account_key_file": "{{user `key_file`}}",
+            "folder_id": "{{user `folder_id`}}",
             "zone" : "ru-central1-a",
             "subnet_id" : "e9bp199qmaap6ec5683e",
             "use_ipv4_nat" : "true",
-            "source_image_family": "ubuntu-1604-lts",
+            "source_image_family": "{{user `source_image`}}",
             "image_name": "reddit-base-{{timestamp}}",
             "image_family": "reddit-base",
             "ssh_username": "ubuntu",
