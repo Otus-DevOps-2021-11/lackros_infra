@@ -1,0 +1,11 @@
+cloud_id = "cloudcloudididid"
+folder_id = "folderdolderidid"
+zone = "ru-central1-a"
+image_id = "imageidimageid"
+public_key_path = "~/.ssh/yc.pub"
+subnet_id = "subnetidsubnetid"
+service_account_key_file = "mykey.json"
+private_key_path = "~/.ssh/yc"
+instance_count           = 1
+app_disk_image           = "fd80u6p4lm2f65cm12c3"
+db_disk_image            = "fd8gha5p8ut2moa8jt5s"
